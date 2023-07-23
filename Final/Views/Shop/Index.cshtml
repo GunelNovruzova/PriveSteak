@@ -1,0 +1,363 @@
+﻿<style>
+    .addtocart {
+        color: #cfa86e;
+        text-decoration: none;
+        transition: 0.3s ease all;
+        background: transparent;
+        z-index: 1;
+        font-size: 18px;
+        font-weight: 500;
+        font-family: "PT Sans", sans-serif;
+        letter-spacing: 0.5px;
+        line-height: normal;
+        text-transform: capitalize;
+        display: inline-block;
+        text-align: center;
+        padding: 10px 35px;
+        border: 2px solid #cfa86e;
+        border-radius: 0;
+        position: relative;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
+        outline: none;
+    }
+
+        .addtocart::before {
+            transition: 0.5s all ease;
+            position: absolute;
+            top: 0;
+            left: 50%;
+            right: 50%;
+            bottom: 0;
+            opacity: 0;
+            content: "";
+            background-color: #cfa86e;
+            z-index: -2;
+            box-sizing: border-box;
+        }
+
+        .addtocart:hover {
+            color: #FFF;
+            background: transparent;
+        }
+
+            .addtocart:hover::before {
+                transition: 0.5s all ease;
+                left: 0;
+                right: 0;
+                opacity: 1;
+            }
+
+    .shop .shop-text i {
+        color: #fff;
+        margin-left: 6px;
+        font-size: 20px;
+        margin-right: 6px;
+    }
+</style>
+@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+@inject IStringLocalizer<ShopController> Localizer
+@inject IHtmlLocalizer<ShopController> HtmlLocalizer
+@inject IStringLocalizer<HomeController> Localizer
+@inject IHtmlLocalizer<HomeController> HtmlLocalizer
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Builder
+
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+
+@inject IStringLocalizer<ShopController> Localizer
+@inject IHtmlLocalizer<HomeController> HtmlLocalizer
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@inject IOptions<RequestLocalizationOptions> LocOptions
+
+@model ShopVM
+@{ ViewData["Title"] = "Index";
+    List<BasketVM> basketVMs = await layoutService.GetBasket();
+    int count = basketVMs.Count;
+    ViewBag.Hometitle = Localizer["hometitle"];
+    ViewBag.AboutTitle = Localizer["abouttitle"];
+    ViewBag.ContactTitle = Localizer["contacttitle"];
+    ViewBag.MenuTitle = Localizer["menutitle"];
+    ViewBag.ReserveTitle = Localizer["reservetitle"];
+
+    string returnUrl = ViewContext.HttpContext.Request.Path;
+    string currentCulture = ViewContext.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.ToString();
+
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<div class="shopall">
+
+    <header class="header">
+        <div class="all" style="align-items:center;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-5">
+                        <div class="header-text">
+                            <ul>
+                                <a asp-controller="home" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Hometitle)</li></a>
+                                <a asp-controller="about" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Abouttitle)</li></a>
+                                <a asp-controller="shop" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Menutitle)</li></a>
+                                <a asp-controller="contact" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Contacttitle)</li></a>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-2">
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@Model.Setting.Logo" alt="" style="height: 80px; width: 38%;"></a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="alltablecontent" style="display:flex;">
+                            <div class="main-header">
+                                <div class="switch">
+                                    <div class="current">
+                                        <span>en</span>
+                                        <em class="arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                                <title>ic_arrow_drop_down_18px</title>
+                                                <g fill="#FFFFFF">
+                                                    <path d="M5 8l4 4 4-4z"></path>
+                                                </g>
+                                            </svg>
+                                        </em>
+                                    </div>
+                                    <div class="options">
+                                        <ul class="options-list">
+                                            <li data-lang="en"><a a asp-controller="Home" asp-action="Language" asp-route-culture="en-GB" asp-route-returnUrl="@returnUrl"><img style="width:20px;" src="~/assets/img/flags/enflag.png" /></a></li>
+                                            <li data-lang="az"><a asp-controller="Home" asp-action="Language" asp-route-culture="az-Latn-AZ" asp-route-returnUrl="@returnUrl"><img style="width:20px;" src="~/assets/img/flags/azflag.png" /></a></li>
+                                            <li data-lang="ru"><a asp-controller="Home" asp-action="Language" asp-route-culture="ru-RU" asp-route-returnUrl="@returnUrl"><img style="width:20px;" src="~/assets/img/flags/ruflag.png" /></a></li>
+
+                                        </ul>
+                                        <div id="trans-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"> <g id="circle" fill="none" fill-rule="evenodd"> <circle id="bg" cx="60" cy="60" r="60" fill="#FFFFFF" /> </g> </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            @if (Model.Setting.Facebook != null)
+                            {
+                                <a target="_blank" href="@Model.Setting.Facebook"><i class="fa-brands fa-facebook"></i></a>}
+                            @if (Model.Setting.Facebook != null)
+                            {
+                                <a target="_blank" href="@Model.Setting.Instagram"><i class="fa-brands fa-instagram"></i></a>}
+                            @if (Model.Setting.Youtube != null)
+                            {
+                                <a target="_blank" href="@Model.Setting.Youtube"><i class="fa-brands fa-youtube"></i></a>}
+                            <div class="right-side">
+                                <ul style="padding:0;">
+                                    <li style="position:relative; margin-right:20px;">
+                                        <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
+                                        <div class="notification" style="position: absolute; top: -8px; right: -7px; background-color: #CFA86E; color: white; font-weight: 700; padding: 0 7px; border-radius: 50%; font-size: 14px;">@basketVMs.Count()</div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="booktable">
+                                <a asp-controller="table" asp-action="index" class="booktable-btn">@Html.Raw(ViewBag.Reservetitle)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="shop">
+        @*<div class="shop-text">
+                <h2>@ViewLocalizer["headtitle"]</h2>
+                <a href="">@ViewLocalizer["hometitle"]</a>
+                <i class="fa-solid fa-angle-right"></i>
+                <span>@ViewLocalizer["headtitle2"]</span>
+            </div>*@
+    </section>
+
+    <section class="shop-detail">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="allrigght">
+                        @*<div class="right">
+                                <form method="get" asp-controller="Shop" asp-action="Search">
+                                    <input type="text" name="query" placeholder="Search">
+                                    <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </form>
+                            </div>*@
+                        <div class="shop-categories" style="background-color: transparent;   position: relative;">
+                            <h3>@ViewLocalizer["category"]</h3>
+                            <ul>
+                                @foreach (Category category in Model.Categories)
+                                {
+                                    <div class="myask" style="display:flex; align-items:center;">
+                                        <svg style="height:11px; width:20px; margin-bottom:-14px;" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                                            <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                                        </svg>
+                                        @if (currentCulture == "en-GB")
+                                        {
+                                        <li><a asp-action="Index" asp-controller="Shop" asp-route-cid="@category.Id" data-id="@category.Id" class="filtercategory">@category.Name</a></li>
+
+                                    }
+                                        @if (currentCulture == "az-Latn-AZ")
+                                        {
+                                            <li><a asp-action="Index" asp-controller="Shop" asp-route-cid="@category.Id" data-id="@category.Id" class="filtercategory">@category.NameAZ</a></li>
+
+                                        }
+                                        @if (currentCulture == "ru-RU")
+                                        {
+                                            <li><a asp-action="Index" asp-controller="Shop" asp-route-cid="@category.Id" data-id="@category.Id" class="filtercategory">@category.NameRU</a></li>
+
+                                        }
+                                </div>
+
+                            }
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-8 col-12">
+
+                        <div class="row">
+                            
+
+                            @foreach (Product product in Model.Products.Take(4))
+                            {
+
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="product-detail">
+                                        <div class="imgcart">
+
+                                            <a href="~/assets/img/meals/@product.Image" class="box image-link">
+                                                <img src="~/assets/img/meals/@product.Image" alt="" />
+                                            </a>
+                                            <a asp-controller="Product" asp-action="AddBasket" asp-route-id="@product.Id" class="addtocart">@ViewLocalizer["basket"]</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="product-text" style="background:transparent;">
+                                        @if (currentCulture == "en-GB")
+                                        {
+                                            <h4>@product.Name</h4>
+                                        }
+                                        @if (currentCulture == "az-Latn-AZ")
+                                        {
+                                            <h4>@product.NameAZ</h4>
+                                        }
+                                        @if (currentCulture == "ru-RU")
+                                        {
+                                            <h4>@product.NameRU</h4>
+                                        }
+
+                                        <span>@product.Price₼</span>
+                                        <br>
+                                        @if (currentCulture == "en-GB")
+                                        {
+                                            <p>@Html.Raw(product.Description)</p>
+                                        }
+                                        @if (currentCulture == "az-Latn-AZ")
+                                        {
+                                            <p>@Html.Raw(product.DescriptionAZ)</p>
+                                        }
+                                        @if (currentCulture == "ru-RU")
+                                        {
+                                            <p>@Html.Raw(product.DescriptionRU)</p>
+                                        }
+
+                                    </div>
+                                </div>}
+                            @*@await Html.PartialAsync("_ShopCategoryPartial", Model.Products)*@
+
+                        </div>
+                        <div class="blog-pagination">
+                            <ul class="justify-content-center">
+                                @if (ViewBag.PageIndex > 1)
+                                {
+                                    <li class="page-item">
+                                        <a class="page-link" asp-action="index" asp-route-page="1" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid" aria-label="Previous">
+                                            @("<<")
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" asp-action="index" asp-route-page="@(ViewBag.PageIndex-1)" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid" aria-label="Previous">
+                                            @("<")
+                                        </a>
+                                    </li>
+                                    @if (ViewBag.PageIndex == ViewBag.PageCount && ViewBag.PageIndex > 2)
+                                    {
+                                        <li class="page-item"><a class="page-link" asp-action="index" asp-route-page="@(ViewBag.PageIndex-2)" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid">@(ViewBag.PageIndex-2) </a></li>
+                                    }
+                                    <li class="page-item"><a class="page-link" asp-action="index" asp-route-page="@(ViewBag.PageIndex-1)" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid">@(ViewBag.PageIndex-1)</a></li>
+                                }
+
+                                <li class="page-item"><a class="page-link" style="background: #030E16; color: white;" asp-action="index" asp-route-page="@ViewBag.PageIndex" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid">@ViewBag.PageIndex</a></li>
+
+                                @if (ViewBag.PageIndex < ViewBag.PageCount)
+                                {
+                                    <li class="page-item"><a class="page-link" asp-action="index" asp-route-page="@(ViewBag.PageIndex + 1)" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid">@(ViewBag.PageIndex + 1)</a></li>
+
+                                    @if (ViewBag.PageIndex == 1 && (ViewBag.PageIndex + 2) < ViewBag.PageCount)
+                                    {
+                                        <li class="page-item"><a class="page-link" asp-action="index" asp-route-page="@(ViewBag.PageIndex+2)" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid">@(ViewBag.PageIndex+2)</a></li>
+                                    }
+                                    <li class="page-item">
+                                        <a class="page-link" asp-route-page="@(ViewBag.PageIndex + 1)" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid" aria-label="Next">
+                                            @(">")
+                                        </a>
+                                    </li>
+                                    <li class="page-item">
+                                        <a class="page-link" asp-action="index" asp-route-page="@ViewBag.PageCount" asp-route-cid="@ViewBag.cid" asp-route-tid="@ViewBag.tid" aria-label="Next">
+                                            @(">>")
+                                        </a>
+                                    </li>
+                                }
+
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+        </div>
+        </section>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script>
+            $('.imgcart').magnificPopup({
+                delegate: 'a', // child items selector, by clicking on it popup will open
+                type: 'image',
+                gallery: {
+                  /*  enabled: true*/
+                }
+            });
+        </script>
+
+        @*<script>
+                $(document).ready(function () {
+                    $(".filtercategory").click(function (e) {
+                        e.preventDefault();
+                        var id = $(this).attr("data-id");
+                        console.log(id)
+                        //$(".allprod").css({
+                        //    "opacity": "1",
+                        //    "visibility": "visible",
+                        //    "right": "1%"
+                        //})
+                        fetch("Shop/CategoryFilter" + "?id=" + id).then(res => {
+                            return res.text()
+                        }).then(data => {
+                            $(".allprod").html(data);
+                        })
+                    })
+                })
+            </script>*@

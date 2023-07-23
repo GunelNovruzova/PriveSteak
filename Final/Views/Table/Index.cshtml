@@ -1,0 +1,222 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+@using Microsoft.AspNetCore.Localization
+@inject IStringLocalizer<TableController> Localizer
+@inject IHtmlLocalizer<TableController> HtmlLocalizer
+@model TableVM
+@{ ViewData["Title"] = "Index";
+    List<BasketVM> basketVMs = await layoutService.GetBasket();
+    int count = basketVMs.Count;
+    ViewBag.Hometitle = Localizer["hometitle"];
+    ViewBag.AboutTitle = Localizer["abouttitle"];
+    ViewBag.ContactTitle = Localizer["contacttitle"];
+    ViewBag.MenuTitle = Localizer["menutitle"];
+    ViewBag.ReserveTitle = Localizer["reservetitle"];
+    string returnUrl = ViewContext.HttpContext.Request.Path;
+    string currentCulture = ViewContext.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.ToString();
+
+}
+<div>
+    <header class="header">
+        <div class="all" style="align-items:center;">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-5 col-md-6 col-sm-8">
+                        <div class="header-text">
+                            <ul>
+                                <a asp-controller="home" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Hometitle)</li></a>
+                                <a asp-controller="about" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Abouttitle)</li></a>
+                                <a asp-controller="shop" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Menutitle)</li></a>
+                                <a asp-controller="contact" asp-action="index">
+                                <li>@Html.Raw(ViewBag.Contacttitle)</li></a>
+                            </ul>
+
+                            <!--<div class="right-side">
+                                <a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>
+                                <div class="account">
+                                    <i class="fa-solid fa-user-gear"></i>
+                                    <ul class="sub-menu">
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                            <li><a asp-controller="Account" asp-action="Profile">@User.Identity.Name</a></li>
+                                            <li><a asp-action="Logout" asp-controller="Account">Sign Out</a></li> }
+                                                        else
+                                                        {
+                                            <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+                                                            <li><a asp-action="Register" asp-controller="Account">Register</a></li>}-->
+                            @*<li><a href="account.html">Account</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>*@
+                            <!--</ul>
+                                </div>
+                                <ul style="padding:0;">
+                                    <li style="position:relative; margin:0;">
+                                        <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
+                                        <div class="notification" style="position: absolute; top: -13px; right: -22px; background-color: #CFA86E; color: white; font-weight: 700; padding: 0 9px; border-radius: 50%;">@basketVMs.Count()</div>
+                                    </li>
+                                </ul>
+                            </div>-->
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-2 col-sm-2">
+                        <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@Model.Setting.Logo" alt="" style="height: 80px; width: 38%;"></a>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-2">
+                        <div class="alltablecontent" style="display:flex;">
+                            <div class="main-header">
+                                <div class="switch">
+                                    <div class="current">
+                                        <span>az</span>
+                                        <em class="arrow">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                                <title>ic_arrow_drop_down_18px</title>
+                                                <g fill="#FFFFFF">
+                                                    <path d="M5 8l4 4 4-4z"></path>
+                                                </g>
+                                            </svg>
+                                        </em>
+                                    </div>
+                                    <div class="options">
+                                        <ul class="options-list">
+                                            <li data-lang="en"><a a asp-controller="Home" asp-action="Language" asp-route-culture="en-GB" asp-route-returnUrl="@returnUrl"><span style="color:#cfa86e; margin-right:3px; font-size:13px;">EN</span><img style="width:20px;" src="~/assets/img/flags/enflag.png" /></a></li>
+                                            <li data-lang="az"><a asp-controller="Home" asp-action="Language" asp-route-culture="az-Latn-AZ" asp-route-returnUrl="@returnUrl"><span style="color: #cfa86e; margin-right: 3px; font-size: 13px;">AZ</span><img style="width:20px;" src="~/assets/img/flags/azflag.png" /></a></li>
+                                            <li data-lang="ru"><a asp-controller="Home" asp-action="Language" asp-route-culture="ru-RU" asp-route-returnUrl="@returnUrl"><span style="color: #cfa86e; margin-right: 3px; font-size: 13px;">RU</span><img style="width:20px;" src="~/assets/img/flags/ruflag.png" /></a></li>
+
+                                        </ul>
+                                        <div id="trans-circle">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"> <g id="circle" fill="none" fill-rule="evenodd"> <circle id="bg" cx="60" cy="60" r="60" fill="#FFFFFF" /> </g> </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            @if (Model.Setting.Facebook != null)
+                            {
+                                <a href="@Model.Setting.Facebook"><i class="fa-brands fa-facebook"></i></a>}
+                            @if (Model.Setting.Facebook != null)
+                            {
+                                <a href="@Model.Setting.Instagram"><i class="fa-brands fa-instagram"></i></a>}
+                            @if (Model.Setting.Youtube != null)
+                            {
+                                <a href="@Model.Setting.Youtube"><i class="fa-brands fa-youtube"></i></a>}
+                            <div class="booktable">
+                                <a asp-controller="table" asp-action="index" class="booktable-btn">@Html.Raw(ViewBag.Reservetitle)</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <style>
+        .errors {
+            margin: 2em 0.5em 1em;
+            padding: 0.2em 1em;
+            border: 2px solid #00a0d2;
+            border-color: #ffb900;
+            font-size: 27px;
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+
+        .personcount {
+            width: 100%;
+            background: none;
+            color: #fff;
+            margin-bottom: 20px;
+            height: 51px;
+            border-color: #cfa86e;
+            display:block !important;
+        }
+    </style>
+    <section class="aboutreserve">
+        @*<div class="about-text">
+            <h2>@ViewLocalizer["headtitle"]</h2>
+            <a href="">@ViewLocalizer["hometitle"]</a>
+            <i class="fa-solid fa-angle-right"></i>
+            <span>@ViewLocalizer["headtitle2"]</span>
+        </div>*@
+    </section>
+    <section class="booking">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 form-text">
+                    <div class="contacttext">
+                        <div class="decor">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                            </svg>
+                        </div>
+                        <h3 style="margin-left:13px; margin-right:15px;">@ViewLocalizer["tabletitle"]</h3>
+                        <div class="decor2">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    @await Html.PartialAsync("_TableCreatePartial", Model.Table)
+                    @if (TempData.ContainsKey("error"))
+                    {
+                        <span class="errors">@TempData["error"]</span>}
+                </div>
+                <div class="col-lg-6 col-12">
+                    <ul class="nav nav-pills">
+                        @foreach (TableCategory tableCategory in Model.TableCategories)
+                        {
+                            @if (currentCulture == "en-GB")
+                            {
+                                <li>
+                                    <a asp-action="ReserveFilter" asp-controller="Table" asp-route-id="@tableCategory.Id" data-id="@tableCategory.Id" class="tablecategory">@tableCategory.Title</a>
+                                </li>
+                            }
+                            @if (currentCulture == "ru-RU")
+                            {
+                                <li>
+                                    <a asp-action="ReserveFilter" asp-controller="Table" asp-route-id="@tableCategory.Id" data-id="@tableCategory.Id" class="tablecategory">@tableCategory.TitleRU</a>
+                                </li>
+                            }
+                            @if (currentCulture == "az-Latn-AZ")
+                            {
+                                <li>
+                                    <a asp-action="ReserveFilter" asp-controller="Table" asp-route-id="@tableCategory.Id" data-id="@tableCategory.Id" class="tablecategory">@tableCategory.TitleAZ</a>
+                                </li>
+                            }
+
+                        }
+                    </ul>
+
+                    <div class="mobres" id="container">
+                        <div class="tab-content">
+                            @await Html.PartialAsync("_ReserveCategoryPartial", Model.Reserves)
+                        </div>
+                    </div>
+
+                </div> 
+            </div> 
+        </div>
+    </section>
+</div>
+
+@*<script>
+        $(document).ready(function () {
+            $(".tableimage").click(function (e) {
+                e.preventDefault();
+                var id = $(this).attr("data-id");
+                console.log(document.getElementById("teable").value)
+
+                document.getElementById("teable").value = id
+                console.log(document.getElementById("teable").value)
+
+
+
+            })
+        })
+    </script>*@
+
+

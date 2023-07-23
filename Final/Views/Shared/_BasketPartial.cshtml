@@ -1,0 +1,73 @@
+﻿<style>
+    .countInp {
+        margin-left: 5px;
+        font-size: 20px;
+    }
+</style>
+@inject IStringLocalizer<BasketController> Localizer
+@inject IHtmlLocalizer<BasketController> HtmlLocalizer
+@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+@*@inject IStringLocalizer<ShopController> Localizer
+@inject IHtmlLocalizer<ShopController> HtmlLocalizer*@
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Builder
+
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@model List<BasketVM>
+@{ double subtotal = 0;
+    ViewBag.SubtotalTitle = Localizer["subtotaltitle"];
+    ViewBag.CartTitle = Localizer["carttitle"];
+    ViewBag.CheckoutTitle = Localizer["checkouttitle"];
+    string returnUrl = ViewContext.HttpContext.Request.Path;
+    string currentCulture = ViewContext.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.ToString();
+}
+<div class="phone">
+    <i class="fa-solid fa-xmark closebasket" style="margin-left:0;"></i>
+    <hr>
+    @foreach (BasketVM basketVM in Model)
+    {
+        subtotal += basketVM.Count * basketVM.Price;
+        <div class="prods">
+            <img src="~/assets/img/meals/@basketVM.Image" alt="" style="height: 108px; width: 98px;">
+            <div class="prod-text">
+                @if (currentCulture == "en-GB")
+                {
+                    <p>@basketVM.Name</p>
+                }
+                @if (currentCulture == "az-Latn-AZ")
+                {
+                 <p>@basketVM.NameAZ</p>
+                }
+                @if (currentCulture == "ru-RU")
+                {
+                    <p>@basketVM.NameRU</p>
+                }
+
+                <div class="pricing" style="display:flex; align-items:center;">
+                    <h6>@basketVM.Count × <span>@basketVM.Price₼</span></h6>
+                    <div class="decprodcount" style="border:1px,solid !important">
+                        <div class="incprodcount" style="border:1px,solid !important">
+                            <a asp-controller="basket" asp-action="update" asp-route-id="@basketVM.ProductId" class="basketUpdate subCount"><i class="fa-solid fa-minus"></i></a>
+                            <span data-id="@basketVM.ProductId" data-prodcount="@basketVM.Count" class="countInp">@basketVM.Count</span>
+                            <a asp-controller="basket" asp-action="update" asp-route-id="@basketVM.ProductId" class="basketUpdate addCount"><i class="fa-solid fa-plus"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a asp-controller="Basket" asp-action="DeleteBasket" asp-route-id="@basketVM.ProductId" class="deletebasket"><i class="fa-solid fa-square-xmark"></i></a>
+        </div>}
+    <h6>@Html.Raw(ViewBag.SubtotalTitle): <span>@subtotal₼</span></h6>
+    <div class="aboutcart">
+        <a asp-action="Index" asp-controller="Basket">@Html.Raw(ViewBag.CartTitle)</a>
+        <a asp-controller="Order" asp-action="Create" class="checkout">@Html.Raw(ViewBag.CheckoutTitle)</a>
+    </div>
+</div>
+
+
+

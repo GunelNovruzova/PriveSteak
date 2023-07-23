@@ -1,0 +1,45 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager
+@inject LayoutService layoutService
+@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@inject LayoutService layoutService
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@inject IStringLocalizer<AccountController> Localizer
+@inject IHtmlLocalizer<AccountController> HtmlLocalizer
+@model RegisterVM
+@{
+    string returnUrl = ViewContext.HttpContext.Request.Path;
+    string currentCulture = ViewContext.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.ToString();
+    ViewBag.LoginTitle = Localizer["logintitle"];
+    ViewBag.RegisterTitle = Localizer["registertitle"];
+
+}
+<form action="" method="post">
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    <h3>@Html.Raw(ViewBag.RegisterTitle)</h3>
+    <hr>
+    <div class="col-lg-12">
+        <input asp-for="FullName" placeholder="Full Name" required />
+    </div>
+    <div class="col-lg-12">
+        <input asp-for="Email" placeholder="Enter your Email" required />
+    </div>
+    <div class="col-lg-12">
+        <input asp-for="UserName" placeholder="Enter your UserName" required />
+    </div>
+    <div class="col-lg-12">
+        <input asp-for="Password" placeholder="Enter your Password" required />
+    </div>
+    <div class="col-lg-12">
+        <input asp-for="RepeatYourPassword" placeholder="Repeat your Password" required />>
+    </div>
+
+    <button>@Html.Raw(ViewBag.RegisterTitle)</button>
+
+</form>
+@section Script{
+    <partial name="_ValidationFormScriptPartial">
+}
+

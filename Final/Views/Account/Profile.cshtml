@@ -1,0 +1,220 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+@inject IStringLocalizer<AccountController> Localizer
+@inject IHtmlLocalizer<AccountController> HtmlLocalizer
+@model MemberProfileVM
+@{ ViewData["Title"] = "Profile";
+    Setting setting = await layoutService.GetSetting();
+    AppUser appUser = null;
+    if (User.Identity.IsAuthenticated)
+    {
+        appUser = userManager.Users.FirstOrDefault(u => u.UserName == User.Identity.Name && !u.IsAdmin);
+    }
+    List<BasketVM> basketVMs = await layoutService.GetBasket();
+    int count = basketVMs.Count;
+    int orderCount = 0;
+    int orderItemCount = 0;
+    double totalOrderItem = 0;
+    foreach (var item in Model.Orders)
+    {
+        foreach (var item1 in item.OrderItems)
+        {
+            totalOrderItem = item1.TotalPrice;
+        }
+    }
+    ViewBag.Hometitle = Localizer["hometitle"];
+    ViewBag.AboutTitle = Localizer["abouttitle"];
+    ViewBag.ContactTitle = Localizer["contacttitle"];
+    ViewBag.MenuTitle = Localizer["menutitle"];
+    ViewBag.ReserveTitle = Localizer["reservetitle"];
+}
+<header class="header">
+    <div class="all" style="align-items:center;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-2 col-sm-8">
+                    <div class="header-text">
+                        <ul>
+                            <a asp-controller="home" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Hometitle)</li></a>
+                            <a asp-controller="about" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Abouttitle)</li></a>
+                            <a asp-controller="shop" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Menutitle)</li></a>
+                            <a asp-controller="contact" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Contacttitle)</li></a>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-2">
+                    <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@setting.Logo" alt="" style="height:91px; width:42%;"></a>
+                </div>
+
+                <div class="col-lg-4 col-md-2 col-sm-2">
+                    <div class="alltablecontent" style="display:flex; align-items:center">
+
+                        @if (setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@setting.Facebook"><i class="fa-brands fa-facebook"></i></a>}
+                        @if (setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@setting.Instagram"><i class="fa-brands fa-instagram"></i></a>}
+                        @if (setting.Youtube != null)
+                        {
+                            <a target="_blank" href="@setting.Youtube"><i class="fa-brands fa-youtube"></i></a>}
+
+                        @*<a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>*@
+                        <div class="account" style="color:#fff;">
+                            <i class="fa-solid fa-user-gear"></i>
+                            <ul class="sub-menu">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li><a asp-controller="Account" asp-action="Profile">@User.Identity.Name</a></li>
+                                    <li><a asp-action="Logout" asp-controller="Account">Sign Out</a></li>
+                                }
+                                else
+                                {
+                                    <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+                                    <li><a asp-action="Register" asp-controller="Account">Register</a></li>
+                                }
+                            </ul>
+                        </div>
+                        <ul style="padding:0;">
+                            <li style="position:relative; margin-right:20px; margin-top:16px;">
+                                <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <div class="notification" style="position: absolute; top: -13px; right: -22px; background-color: #CFA86E; color: white; font-weight: 700; padding: 0 9px; border-radius: 50%;">@basketVMs.Count()</div>
+                            </li>
+                        </ul>
+
+                        <div class="booktable">
+                            <a asp-controller="table" asp-action="index" class="booktable-btn">@Html.Raw(ViewBag.Reservetitle)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- main wrapper start -->
+<section class="about">
+    <div class="about-text">
+        <h2>@ViewLocalizer["headtitle"]</h2>
+        <a href="">@ViewLocalizer["hometitle"]</a>
+        <i class="fa-solid fa-angle-right"></i>
+        <span>@ViewLocalizer["headtitle2"]</span>
+    </div>
+</section>
+<!-- breadcrumb area start -->
+<!-- breadcrumb area end -->
+<!-- my account wrapper start -->
+<section class="myacc">
+    <div class="my-account-wrapper section-padding">
+        <div class="container custom-container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- My Account Page Start -->
+                    <div class="myaccount-page-wrapper">
+                        <!-- My Account Tab Menu Start -->
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4">
+                                <div class="myaccount-tab-menu nav" role="tablist">
+
+                                    <a href="#orders" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i> Orders</a>
+
+
+                                    <a href="#account-info" data-toggle="tab" aria-selected="@((TempData["ProfileTab"] != null && TempData["ProfileTab"].ToString()=="Account"?"true":"false"))" class="@((TempData["ProfileTab"] != null && TempData["ProfileTab"].ToString()=="Account"?"active":""))"><i class="fa fa-user"></i>  Account Details</a>
+                                    <a asp-controller="Account" asp-action="LogOut"><i class="fa fa-sign-out"></i> Logout</a>
+                                </div>
+                            </div>
+                            <!-- My Account Tab Menu End -->
+                            <!-- My Account Tab Content Start -->
+                            <div class="col-lg-9 col-md-8">
+                                <div class="tab-content" id="myaccountContent">
+                                    <!-- Single Tab Content Start -->
+                                    <div class="tab-pane fade" id="orders" role="tabpanel">
+                                        <div class="myaccount-content">
+                                            <h3>Orders</h3>
+                                            <div class="myaccount-table table-responsive text-center">
+                                                <table class="table table-bordered">
+                                                    <thead class="thead-light">
+                                                        <tr>
+                                                            <th>Order</th>
+                                                            <th>OrderBy</th>
+                                                            <th>Count</th>
+                                                            <th>Total</th>
+                                                            <th>Date</th>
+                                                            <th>Status</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        @foreach (var item in Model.Orders)
+                                                        {
+                                                            orderCount++;
+                                                            orderItemCount = 0;
+                                                            <tr data-toggle="collapse" data-target="#demo@(orderCount)" class="accordion-toggle">
+                                                                <td>@orderCount</td>
+                                                                <td>@item.AppUser.FullName</td>
+                                                                <td>@item.OrderItems.Count()</td>
+                                                                <td>@item.OrderItems.Sum(o => o.TotalPrice)</td>
+                                                                <td>@item.CreatedAt?.ToString("MMMM dd, yyyy")</td>
+                                                                <td>@item.Status</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td colspan="12" class="hiddenRow">
+                                                                    <div class="accordian-body collapse" id="demo@(orderCount)">
+                                                                        <table class="table">
+                                                                            <thead>
+                                                                                <tr class="info">
+                                                                                    <th>#</th>
+                                                                                    <th>Product Name</th>
+                                                                                    <th>Count</th>
+                                                                                    <th>Total Price</th>
+                                                                                    <th>Price</th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                @foreach (var orderItem in item.OrderItems)
+                                                                                {
+                                                                                    orderItemCount++;
+                                                                                    <tr data-toggle="collapse" class="accordion-toggle">
+                                                                                        <td>@orderItemCount</td>
+                                                                                        <td>@orderItem.Product.Name</td>
+                                                                                        <td>@orderItem.Count</td>
+                                                                                        <td>@orderItem.Price</td>
+                                                                                        <td>@orderItem.TotalPrice</td>
+                                                                                    </tr>
+}
+                                                                            </tbody>
+                                                                        </table>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+}
+
+
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Single Tab Content End -->
+                                    <!-- Single Tab Content Start -->
+                                    <div class="tab-pane fade @((TempData["ProfileTab"]!=null && TempData["ProfileTab"].ToString()=="Account"?"active show":""))" id="account-info" role="tabpanel">
+                                        <div class="myaccount-content">
+                                            <h3>Account Details</h3>
+                                            @await Html.PartialAsync("_ProfileFormPartial", Model.Member)
+                                        </div>
+                                    </div> <!-- Single Tab Content End -->
+                                </div>
+                            </div> <!-- My Account Tab Content End -->
+                        </div>
+                    </div> <!-- My Account Page End -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- my account wrapper end -->
+<!-- main wrapper end -->

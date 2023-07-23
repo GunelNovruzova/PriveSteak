@@ -1,0 +1,192 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Builder
+@inject IStringLocalizer<OrderController> Localizer
+@inject IHtmlLocalizer<OrderController> HtmlLocalizer
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@model OrderVM
+@{ ViewData["Title"] = "Index";
+    Setting setting = await layoutService.GetSetting();
+    AppUser appUser = null;
+    if (User.Identity.IsAuthenticated)
+    {
+        appUser = userManager.Users.FirstOrDefault(u => u.UserName == User.Identity.Name && !u.IsAdmin);
+    }
+    List<BasketVM> basketVMs = await layoutService.GetBasket();
+    int count = basketVMs.Count;
+    ViewBag.Hometitle = Localizer["hometitle"];
+    ViewBag.AboutTitle = Localizer["abouttitle"];
+    ViewBag.ContactTitle = Localizer["contacttitle"];
+    ViewBag.MenuTitle = Localizer["menutitle"];
+    ViewBag.ReserveTitle = Localizer["reservetitle"];
+    string returnUrl = ViewContext.HttpContext.Request.Path;
+    string currentCulture = ViewContext.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.ToString();
+}
+
+<header class="header">
+    <div class="all" style="align-items:center;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-2 col-sm-8">
+                    <div class="header-text">
+                        <ul>
+                            <a asp-controller="home" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Hometitle)</li></a>
+                            <a asp-controller="about" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Abouttitle)</li></a>
+                            <a asp-controller="shop" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Menutitle)</li></a>
+                            <a asp-controller="contact" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Contacttitle)</li></a>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-2">
+                    <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@setting.Logo" alt="" style="height:91px; width:42%;"></a>
+                </div>
+                <div class="col-lg-4 col-md-2 col-sm-2">
+                    <div class="alltablecontent" style="display:flex; align-items:center;">
+
+                        @if (setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@setting.Facebook"><i class="fa-brands fa-facebook"></i></a>}
+                        @if (setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@setting.Instagram"><i class="fa-brands fa-instagram"></i></a>}
+                        @if (setting.Youtube != null)
+                        {
+                            <a target="_blank" href="@setting.Youtube"><i class="fa-brands fa-youtube"></i></a>} @*<a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>*@
+                        <div class="account" style="color:#fff;">
+                            <i class="fa-solid fa-user-gear"></i>
+                            <ul class="sub-menu">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                                    <li><a asp-controller="Account" asp-action="Profile">@User.Identity.Name</a></li>
+                                    <li><a asp-action="Logout" asp-controller="Account">Sign Out</a></li>
+                                }
+                                else
+                                {
+                                    <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+                                    <li><a asp-action="Register" asp-controller="Account">Register</a></li>
+                                }
+                            </ul>
+                        </div>
+                        <ul style="padding:0;">
+                            <li style="position:relative; margin-right:20px; margin-top:16px;">
+                                <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <div class="notification">@basketVMs.Count()</div>
+                            </li>
+                        </ul>
+
+                        <div class="booktable">
+                            <a asp-controller="table" asp-action="index" class="booktable-btn">Book A Table</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<section class="about">
+</section>
+<section class="checkdetail">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="billing">
+                    <h3>@ViewLocalizer["billing"]</h3>
+                    <hr>
+                    @await Html.PartialAsync("_OrderPartial", Model)
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="orderdetail">
+                    <h3>@ViewLocalizer["ordersum"]</h3>
+                    <hr>
+                    <div class="order-summary-content">
+                        <!-- Order Summary Table -->
+                        <div class="order-summary-table table-responsive text-center">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Products</th>
+                                        <th>SubTotal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in ViewBag.Basket)
+                                    {
+                                    <tr>
+                                        @if (currentCulture == "en-GB")
+                                        {
+                                            <td>
+                                                <a href="product-details.html">@item.Product.Name<strong> × @item.Count</strong></a>
+                                            </td>
+                                        }
+                                        @if (currentCulture == "az-Latn-AZ")
+                                        {
+                                            <td>
+                                                <a href="product-details.html">@item.Product.NameAZ<strong> × @item.Count</strong></a>
+                                            </td>
+                                        }
+                                        @if (currentCulture == "ru-RU")
+                                        {
+                                            <td>
+                                                <a href="product-details.html">@item.Product.NameRU<strong> × @item.Count</strong></a>
+                                            </td>
+                                        }
+                                        <td>$@(item.Product.Price * item.Count) </td>
+                                    </tr>
+                                    }
+                                </tbody>
+                                <tfoot>
+
+
+                                    <tr>
+                                        <td>Grand Total Amount</td>
+                                        <td><strong>$@(ViewBag.Total)</strong></td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                        </div>
+                        <!-- Order Payment Method -->
+                        <div class="order-payment-method">
+                            <div class="single-payment-method show">
+                                <div class="payment-method-name">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="cashon" name="paymentmethod" value="cash" class="custom-control-input" checked />
+                                        <label class="custom-control-label" for="cashon">Cash On Delivery</label>
+                                    </div>
+                                </div>
+                                @*<div class="payment-method-details" data-method="cash">
+                                        <p>Pay with card</p>
+                                    </div>*@
+                            </div>
+
+
+                            @*<div class="summary-footer-area">
+                                    <div class="custom-control custom-checkbox mb-20">
+                                        <input type="checkbox" class="custom-control-input" id="terms" required />
+                                        <label class="custom-control-label" for="terms">
+                                            I have read and agree to
+                                            the website <a href="index.html">terms and conditions.</a>
+                                        </label>
+                                    </div>
+                                </div>*@
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

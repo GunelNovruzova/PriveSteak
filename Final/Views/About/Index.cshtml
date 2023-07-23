@@ -1,0 +1,703 @@
+﻿
+@using Microsoft.AspNetCore.Identity;
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+@inject IStringLocalizer<AboutController> Localizer
+@inject IHtmlLocalizer<AboutController> HtmlLocalizer
+@model AboutVM
+@{ ViewData["Title"] = "Index";
+    List<BasketVM> basketVMs = await layoutService.GetBasket();
+    string returnUrl = ViewContext.HttpContext.Request.Path;
+    string currentCulture = ViewContext.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.ToString();
+    int count = basketVMs.Count;
+    ViewBag.Hometitle = Localizer["hometitle"];
+    ViewBag.AboutTitle = Localizer["abouttitle"];
+    ViewBag.ContactTitle = Localizer["contacttitle"];
+    ViewBag.MenuTitle = Localizer["menutitle"];
+    ViewBag.ReserveTitle = Localizer["reservetitle"];
+    
+}
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+    .aboutimage button {
+        display: none;
+    }
+
+    .aboutimage i {
+        font-size: 20px;
+    }
+
+    .aboutimage {
+        margin-top: 110px;
+    }
+
+    .slick-next {
+        position: absolute;
+        right: -9%;
+        top: 56%;
+        border: 1px solid #C19977;
+        border-radius: 50%;
+        padding: 3px 7px;
+        background-color: #C19977;
+        color: #f3f3f3;
+    }
+
+    .slick-prev {
+        position: absolute;
+        left: -7%;
+        top: 56%;
+        border: 1px solid #C19977;
+        border-radius: 50%;
+        padding: 3px 7px;
+        background-color: #C19977;
+        color: #f3f3f3;
+    }
+
+    .aboutus h5 {
+        position: relative;
+    }
+
+        .aboutus h5::after {
+            clear: both;
+            content: "";
+            display: inline-block;
+            height: 10px;
+            margin: 0 auto;
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            width: 10px;
+        }
+
+    .sidebar {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+        min-height: 100vh;
+        width: 500px;
+        background-size: cover;
+        z-index: 100;
+        transition: all 0.5s ease;
+        margin: auto;
+    }
+
+        .sidebar.close {
+            width: 78px;
+        }
+
+        .sidebar .logo-details {
+            height: 60px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+
+            .sidebar .logo-details i {
+                font-size: 30px;
+                color: #fff;
+                height: 50px;
+                min-width: 78px;
+                text-align: center;
+                line-height: 50px;
+            }
+
+            .sidebar .logo-details .logo_name {
+                font-size: 22px;
+                color: #fff;
+                font-weight: 600;
+                transition: 0.3s ease;
+                transition-delay: 0.1s;
+            }
+
+        .sidebar.close .logo-details .logo_name {
+            transition-delay: 0s;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .sidebar .nav-links {
+            height: 100%;
+            padding: 30px 0 100px 0;
+            overflow: auto;
+        }
+
+        .sidebar.close .nav-links {
+            overflow: visible;
+        }
+
+        .sidebar .nav-links::-webkit-scrollbar {
+            display: none;
+        }
+
+        .sidebar .nav-links li {
+            position: relative;
+            list-style: none;
+            transition: all 0.4s ease;
+        }
+
+            .sidebar .nav-links li:hover {
+                background: #1d1b31;
+            }
+
+            .sidebar .nav-links li .icon-link {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border: 1px solid #11101d;
+                background-color: #031823;
+            }
+
+        .sidebar.close .nav-links li .icon-link {
+            display: block;
+        }
+
+        .sidebar .nav-links li i {
+            height: 50px;
+            min-width: 78px;
+            text-align: center;
+            line-height: 50px;
+            color: #fff;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .sidebar .nav-links li.showMenu i.arrow {
+            transform: rotate(-180deg);
+        }
+
+        .sidebar.close .nav-links i.arrow {
+            display: none;
+        }
+
+        .sidebar .nav-links li a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+
+            .sidebar .nav-links li a .link_name {
+                font-size: 18px;
+                font-weight: 400;
+                color: #fff;
+                transition: all 0.4s ease;
+            }
+
+        .sidebar.close .nav-links li a .link_name {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .sidebar .nav-links li .sub-menu {
+            padding: 6px 6px 14px 80px;
+            margin-top: -10px;
+            background: #CFA86E;
+            display: none;
+        }
+
+        .sidebar .nav-links li.showMenu .sub-menu {
+            display: block;
+        }
+
+        .sidebar .nav-links li .sub-menu a {
+            color: #fff;
+            font-size: 15px;
+            padding: 5px 0;
+            white-space: nowrap;
+            opacity: 0.6;
+            transition: all 0.3s ease;
+        }
+
+            .sidebar .nav-links li .sub-menu a:hover {
+                opacity: 1;
+            }
+
+        .sidebar.close .nav-links li .sub-menu {
+            position: absolute;
+            left: 100%;
+            top: -10px;
+            margin-top: 0;
+            padding: 10px 20px;
+            border-radius: 0 6px 6px 0;
+            opacity: 0;
+            display: block;
+            pointer-events: none;
+            transition: 0s;
+        }
+
+        .sidebar.close .nav-links li:hover .sub-menu {
+            top: 0;
+            opacity: 1;
+            pointer-events: auto;
+            transition: all 0.4s ease;
+        }
+
+        .sidebar .nav-links li .sub-menu .link_name {
+            display: none;
+        }
+
+        .sidebar.close .nav-links li .sub-menu .link_name {
+            font-size: 18px;
+            opacity: 1;
+            display: block;
+        }
+
+        .sidebar .nav-links li .sub-menu.blank {
+            opacity: 1;
+            pointer-events: auto;
+            padding: 3px 20px 6px 16px;
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .sidebar .nav-links li:hover .sub-menu.blank {
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        .sidebar .profile-details {
+            position: fixed;
+            bottom: 0;
+            width: 260px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #1d1b31;
+            padding: 12px 0;
+            transition: all 0.5s ease;
+        }
+
+        .sidebar.close .profile-details {
+            background: none;
+        }
+
+        .sidebar.close .profile-details {
+            width: 78px;
+        }
+
+        .sidebar .profile-details .profile-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .sidebar .profile-details img {
+            height: 52px;
+            width: 52px;
+            -o-object-fit: cover;
+            object-fit: cover;
+            border-radius: 16px;
+            margin: 0 14px 0 12px;
+            background: #1d1b31;
+            transition: all 0.5s ease;
+        }
+
+        .sidebar.close .profile-details img {
+            padding: 10px;
+        }
+
+        .sidebar .profile-details .profile_name,
+        .sidebar .profile-details .job {
+            color: #fff;
+            font-size: 18px;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+
+        .sidebar.close .profile-details i,
+        .sidebar.close .profile-details .profile_name,
+        .sidebar.close .profile-details .job {
+            display: none;
+        }
+
+        .sidebar .profile-details .job {
+            font-size: 12px;
+        }
+
+    .home-section {
+        position: relative;
+        background: #E4E9F7;
+        min-height: 100%;
+        left: 0px;
+        width: calc(100% - 260px);
+        transition: all 0.5s ease;
+    }
+
+    .sidebar.close ~ .home-section {
+        left: 0px;
+        width: calc(100% - 78px);
+    }
+
+    .home-section .home-content {
+        height: 60px;
+        display: flex;
+        align-items: center;
+    }
+
+        .home-section .home-content .bx-menu,
+        .home-section .home-content .text {
+            color: #11101d;
+            font-size: 35px;
+        }
+
+        .home-section .home-content .bx-menu {
+            margin: 0 15px;
+            cursor: pointer;
+        }
+
+        .home-section .home-content .text {
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+    .sidebar.close.small-screen ~ .home-section {
+        width: 100%;
+        left: 0;
+        z-index: 100;
+    }
+
+    .textcon p {
+     
+        font-family: "PT Sans", sans-serif;
+        font-weight: 400;
+        letter-spacing: .04em;
+        color: #fff;
+        text-transform: none;
+        -webkit-font-smoothing: antialiased;
+        font-size: 18px;
+        line-height: 26px;
+        margin: 11px 0 0;
+        padding: 0 10.5%;
+    }
+
+    
+</style>
+
+<header class="header">
+    <div class="all" style="align-items:center;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-5">
+                    <div class="header-text">
+                        <ul>
+                            <a asp-controller="home" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Hometitle)</li></a>
+                            <a asp-controller="about" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Abouttitle)</li></a>
+                            <a asp-controller="shop" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Menutitle)</li></a>
+                            <a asp-controller="contact" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Contacttitle)</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-3">
+                    <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@Model.Setting.Logo" alt="" style="height: 80px; width: 38%;"></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="alltablecontent" style="display:flex;">
+                        <div class="main-header">
+                            <div class="switch">
+                                <div class="current">
+                                    <span>az</span>
+                                    <em class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                            <title>ic_arrow_drop_down_18px</title>
+                                            <g fill="#FFFFFF">
+                                                <path d="M5 8l4 4 4-4z"></path>
+                                            </g>
+                                        </svg>
+                                    </em>
+                                </div>
+                                <div class="options">
+                                    <ul class="options-list">
+                                        <li data-lang="en"><a a asp-controller="Home" asp-action="Language" asp-route-culture="en-GB" asp-route-returnUrl="@returnUrl"><span style="color:#cfa86e; margin-right:3px; font-size:13px;">EN</span><img style="width:20px;" src="~/assets/img/flags/enflag.png" /></a></li>
+                                        <li data-lang="az"><a asp-controller="Home" asp-action="Language" asp-route-culture="az-Latn-AZ" asp-route-returnUrl="@returnUrl"><span style="color: #cfa86e; margin-right: 3px; font-size: 13px;">AZ</span><img style="width:20px;" src="~/assets/img/flags/azflag.png" /></a></li>
+                                        <li data-lang="ru"><a asp-controller="Home" asp-action="Language" asp-route-culture="ru-RU" asp-route-returnUrl="@returnUrl"><span style="color: #cfa86e; margin-right: 3px; font-size: 13px;">RU</span><img style="width:20px;" src="~/assets/img/flags/ruflag.png" /></a></li>
+
+                                    </ul>
+                                    <div id="trans-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"> <g id="circle" fill="none" fill-rule="evenodd"> <circle id="bg" cx="60" cy="60" r="60" fill="#FFFFFF" /> </g> </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @if (Model.Setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@Model.Setting.Facebook"><i class="fa-brands fa-facebook"></i></a>}
+                        @if (Model.Setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@Model.Setting.Instagram"><i class="fa-brands fa-instagram"></i></a>}
+                        @if (Model.Setting.Youtube != null)
+                        {
+                            <a target="_blank" href="@Model.Setting.Youtube"><i class="fa-brands fa-youtube"></i></a>}
+                        <div class="booktable">
+                            <a asp-controller="table" asp-action="index" class="booktable-btn">@Html.Raw(ViewBag.Reservetitle)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="about">
+    @*<div class="about-text">
+            <h2>@ViewLocalizer["headtitle"]</h2>
+            <a asp-controller="home" asp-action="index">@ViewLocalizer["hometitle"] </a>
+            <i class="fa-solid fa-angle-right"></i>
+            <a asp-controller="about" asp-action="index"> <span>@ViewLocalizer["headtitle2"] </span></a>
+        </div>*@
+</section>
+<div class="slideshow-container">
+    @foreach (AboutIntro aboutIntro in Model.AboutIntros)
+    {
+        @if (currentCulture == "en-GB")
+        {
+            <div class="mySlides">
+                <div class="textcon" style="text-align:center; text-transform:capitalize;">
+                    <div class="contacttext">
+                        <div class="decor">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                            </svg>
+                        </div>
+                        <h1 style="color:#cfa86e; font-weight:700;">@aboutIntro.Feature</h1>
+                        <div class="decor2">
+                            <svg xmlns="http://www.w3.org/2000/svg">
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                                <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <p>@Html.Raw(aboutIntro.Description)</p>
+                </div>
+            </div>
+        }
+        @if (currentCulture == "az-Latn-AZ")
+        {
+            <div class="mySlides">
+                <div class="textcon" style="text-align:center;">
+                    <h4>@aboutIntro.FeatureAZ</h4>
+                    <p>@Html.Raw(aboutIntro.DescriptionAZ)</p>
+                </div>
+            </div>
+        }
+        @if (currentCulture == "ru-RU")
+        {
+            <div class="mySlides">
+                <div class="textcon" style="text-align:center;">
+                    <h4>@aboutIntro.FeatureRU</h4>
+                    <p>@Html.Raw(aboutIntro.DescriptionRU)</p>
+                </div>
+            </div>
+        }
+
+    }
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+<div class="dot-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+<section class="gallery" style="padding:0px 0px !important">
+    <div class="text">
+        <div class="contacttext">
+            <div class="decor">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                </svg>
+            </div>
+            <h3>@ViewLocalizer["restauranttitle"]</h3>
+            <div class="decor2">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-12 col-md-12">
+                <div class="images2">
+
+                    <a href="~/assets/img/background/039C1873.jpg" class="box image-link">
+                        <img src="~/assets/img/background/039C1873.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/background/singing.jpeg" class="box image-link">
+                        <img src="~/assets/img/background/singing.jpeg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/background/cabinet2.jpg" class="box image-link">
+                        <img src="~/assets/img/background/cabinet2.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/blogs/_54A5295.jpg" class="box image-link">
+                        <img src="~/assets/img/blogs/_54A5295.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/blogs/breakfast-at-prive-steak.jpg" class="box image-link">
+                        <img src="~/assets/img/blogs/breakfast-at-prive-steak.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/blogs/IMG_3757.jpg" class="box image-link">
+                        <img src="~/assets/img/blogs/IMG_3757.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/blogs/sing.jpg" class="box image-link">
+                        <img src="~/assets/img/blogs/sing.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/background/7S7A0046_low.jpg" class="box image-link">
+                        <img src="~/assets/img/background/7S7A0046_low.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/background/7S7A0075_low.jpg" class="box image-link">
+                        <img src="~/assets/img/background/7S7A0075_low.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/background/7S7A0092__low.jpg" class="box image-link">
+                        <img src="~/assets/img/background/7S7A0092__low.jpg" alt="Alternate Text" />
+                    </a>
+                    <a href="~/assets/img/background/7S7A0113_low.jpg" class="box image-link">
+                        <img src="~/assets/img/background/7S7A0113_low.jpg" alt="Alternate Text" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="generalimage" style="padding: 0px 0 !important; background-color: #000000;">
+    <div class="text">
+        <div class="contacttext">
+            <div class="decor">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                </svg>
+            </div>
+            <h1 style="margin-left:13px; margin-right:15px;">@ViewLocalizer["galleryheadtitle"]</h1>
+            <div class="decor2">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                </svg>
+            </div>
+        </div>
+        @*<h1>@ViewLocalizer["galleryheadtitle"]</h1>*@
+        <p>@ViewLocalizer["gallerysubtitle"]</p>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-12 col-md-12">
+                <div class="imageslide">
+                    @foreach (Product product in Model.Products)
+                    {
+                        @if (product.CategoryId == 42)
+                        {
+                           
+                                <a href="~/assets/img/meals/@product.Image" class="box image-link">
+                                    <img src="~/assets/img/meals/@product.Image" alt="Alternate Text" />
+                                </a>
+                            
+                        }
+                    }
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="video" style="padding:7px 0 !important;">
+    <div class="text">
+        <div class="contacttext">
+            <div class="decor">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                </svg>
+            </div>
+            <h1 style="margin-left:13px; margin-right:15px;" color: #cfa86e;">@ViewLocalizer["videotitle"]</h1>
+            <div class="decor2">
+                <svg xmlns="http://www.w3.org/2000/svg">
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881 8.576L20.562.591.244 8.576"></path>
+                    <path fill="none" stroke="#9C7C57" stroke-miterlimit="10" d="M40.881.591L20.562 8.576.243.591"></path>
+                </svg>
+            </div>
+        </div>
+
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-12 col-md-12">
+                <div class="videosslide">
+                    @foreach (Video video in Model.Videos)
+                    {
+                        <div class="box">
+                            <iframe src="@video.VideoLink" YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+    }
+    window.onload = function () {
+        setInterval(function () {
+            plusSlides(1);
+        }, 3000);
+    }
+</script>
+<script>
+    $('.imageslide').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+</script>
+<script>
+    $('.images2').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+</script>

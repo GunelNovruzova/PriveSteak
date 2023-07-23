@@ -1,0 +1,46 @@
+﻿@model Reserve
+
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Reserve Detail</h1>
+            </div>
+        </div>
+        <div class="row justify-content-lg-center">
+            <div class="col-lg-8">
+                <div class="card" style="width: 35rem;margin: 0 auto;">
+                    @*<div class="text-center">
+                        <img class="card-img-top" style="width: 13rem; margin-top: 43px;" src="~/assets/img/about/@Model.Image" alt="Card image cap">
+                    </div>*@
+                    
+                    <ul class="list-group list-group-flush">
+
+
+                        <li class="list-group-item">TableNumber : @Model.Number/li>
+                       
+
+                        <li class="list-group-item">Created at : @Model.CreatedAt</li>
+                        <li class="list-group-item">Last deleted at : @Model.DeletedAt</li>
+                        <li class="list-group-item">Last updated at : @Model.UpdatedAt</li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a asp-action="Update" asp-controller="Reserve" asp-area="manage" asp-route-id="@Model.Id" class="btn btn-warning">Update</a>
+
+                        @if (Model.IsDeleted)
+                        {
+            <a asp-action="Restore" asp-controller="Reserve" asp-area="manage" asp-route-id="@Model.Id" class="btn btn-primary">Restore</a> }
+        else
+        {
+<a asp-action="Delete" asp-controller="Reserve" asp-area="manage" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>}
+                    <a asp-action="index" asp-controller="Reserve" asp-area="manage" class="btn btn-primary">Go to TableCategory list</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

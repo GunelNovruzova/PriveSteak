@@ -1,0 +1,40 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>9e064710-5cb6-4bf0-ac7f-e95a6f899965</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20220702170031_HomeIntroTable.cs" />
+    <Compile Remove="Migrations\20220702170031_HomeIntroTable.Designer.cs" />
+    <Compile Remove="Migrations\20220726141620_CreatedReserveTable.cs" />
+    <Compile Remove="Migrations\20220726141620_CreatedReserveTable.Designer.cs" />
+    <Compile Remove="Migrations\20220728103114_CreatedReserveTables.cs" />
+    <Compile Remove="Migrations\20220728103114_CreatedReserveTables.Designer.cs" />
+    <Compile Remove="Migrations\20220804175252_ReserveTableLastVersion.cs" />
+    <Compile Remove="Migrations\20220804175252_ReserveTableLastVersion.Designer.cs" />
+    <Compile Remove="Migrations\20220806183133_CreatedTableReserve.cs" />
+    <Compile Remove="Migrations\20220806183133_CreatedTableReserve.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.24" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.24">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Manage\Data\" />
+    <Folder Include="Areas\Manage\Models\" />
+    <Folder Include="Properties\PublishProfiles\" />
+    <Folder Include="wwwroot\assets\img\salads\" />
+  </ItemGroup>
+
+</Project>

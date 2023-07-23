@@ -1,0 +1,30 @@
+﻿@model IEnumerable<Reserve>
+
+<div class="container">
+    <div class="row">
+        @foreach (Reserve reserve in Model.Take(27))
+        {
+            @if (!reserve.IsDeleted)
+             {
+                <div class="col-lg-3 col-12">
+                    <div class="tabcontent" style="position:absolute; left:@reserve.ImagePositionLEFT; top:@reserve.ImagePositionTOP">
+                            @if (reserve.Number == 102 || reserve.Number == 106 || reserve.Number == 0 || reserve.Number == 100 || reserve.Number == 101 || reserve.Number == 107 || reserve.Number == 109)
+                            {
+                                <a data-id="@reserve.Id" data-num="@reserve.Number" data-name="@reserve.TableCategory.Title" style="color:#f3f3f3;">
+                                    <img src="~/assets/img/about/@reserve.Image">
+                                    <span style="visibility:hidden;opacity:0;display:none;">@reserve.Number</span>
+                                </a>
+                            }
+                            else
+                            {
+                                <a class="tableimage" data-id="@reserve.Id" data-num="@reserve.Number" data-name="@reserve.TableCategory.Title" style="color:#f3f3f3;">
+                                    <img src="~/assets/img/about/@reserve.Image">
+                                    <span style="">@reserve.Number</span>
+                                </a>
+                            }
+                    </div>
+                </div>
+             }
+         }
+    </div>
+</div>

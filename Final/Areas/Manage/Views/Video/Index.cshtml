@@ -1,0 +1,41 @@
+﻿
+@model List<Video>
+@{ int count = 0; }
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    
+                                    <th scope="col">Video</th>
+                                 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (Video video in Model)
+                                {
+                                    count++;
+                    <tr>
+                       
+                       
+                        <td>
+                            @video.VideoLink
+                        </td>
+                        <td>
+                            <a asp-action="Detail" asp-controller="Video" asp-area="manage" class="btn btn-primary">Detail</a>
+                            <a asp-action="Update" asp-controller="Video" asp-area="manage" class="btn btn-warning">Update</a>
+                        </td>
+                    </tr>}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

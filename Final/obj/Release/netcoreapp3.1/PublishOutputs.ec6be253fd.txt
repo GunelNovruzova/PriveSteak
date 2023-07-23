@@ -1,0 +1,977 @@
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Final.exe
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\about.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\about.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\about.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\account.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\account.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\account.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\cart.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\cart.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\cart.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\checkout.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\checkout.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\checkout.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\contact.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\contact.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\contact.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\login.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\login.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\login.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\register.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\register.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\register.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\shop.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\shop.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\shop.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\shopdetail.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\shopdetail.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\shopdetail.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\style.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\style.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\style.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\stylsish.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\table.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\table.css.map
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\css\table.scss
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\about1.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\about2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\about3.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\about4.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\aboutmain.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\abouttable.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\abouttable1.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\abouttable2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\sehne.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\slidemeal.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\slidemeal3.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\slider1.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\slider2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\slider3.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\sliidemeal2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol2li.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol2lidaire.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol4.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol4lu.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol4ludaire.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol6.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol6li.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol6lidaire.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\stol6lidairedaire.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\about\sutun.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\039C1871.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\039C1872.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\039C1873.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\039C1874.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\039C1876 (1).jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\3.begendili quzu cop sis_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0046_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0075_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0092__low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0113_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0189_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0199_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0202_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0205_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0328_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0386_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0557_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\7S7A0567_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\cabinet.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\cabinet2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\coridor.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\IMG_3424_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\IMG_3695.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\IMG_3756_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\IMG_3757.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\IMG_3758_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\LINE3834.JPG
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\looking.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Prive banquet 1 06.12.2022_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Prive banquet 2 06.12.2022_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Prive banquet 3 06.12.2022_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Prive banquet 4 06.12.2022_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Prive banquet 5 06.12.2022_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Prive banquet 6 06.12.2022_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Prive banquet 7 06.12.2022_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Privecorporate.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\Privecorporate2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\background\singing.jpeg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\039C0982.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\11810507-2558-4c00-b639-963238b80424_202206122234248700_sing.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\1efab5da-70e8-4d52-a0ce-4e2f5cfc3675_202206122235150491__54A5295.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\3ac97b07-d2f8-4951-8231-7d50b3e078c6_202206122233474245_IMG_3757.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\5fae14e3-e4e5-46e9-8915-403731980642_202206122243081241_039C0982.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\bcf68b57-994e-43e1-a05a-ae0527df9a1f_202206122244403147_new-yorksteak.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\blogburger.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\breakfast-menu.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\burger2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\c477a25d-7e96-483e-8dc8-f8f04825acab_202206122237309299_breakfast-menu.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\d863fa73-f3b9-4e8b-8148-4d9970cc5e54_202206122240240077_burger2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\dessert.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\IMG_3757.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\new-yorksteak.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\quzupirzola.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\sing.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\blogs\_54A5295.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\flags\azflag.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\flags\enflag.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\flags\ruflag.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\039C1035.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\039C1862.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\039C2085.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\1c530373-269c-4eac-b27c-3adcf85a032d_202207022340443048__0010021.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\4813c77a-ffc3-4560-89e7-6d6643c63ce9_202207022342113643_UQ4B7014.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\65917e2a-ba96-409c-8512-703c87a2b2e5_202207022341230874_039C1035.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\6b52ab8b-26cf-41b3-a651-cf374e011276_202207022343030041_IMG_3757.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\7S7A0165.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\93fe0dff-9741-44de-ae8b-4a72ce968e77_202207022341521694__54A5218.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\bluetable.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\d700c313-4152-4c14-89e1-c4cfe00e9f30_202207022342398539__54A5295.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\e591a892-7383-488d-9887-452d6416bb8b_202207022313429767_sing2.jpeg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\formenu.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\image2.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\IMG_3699.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\IMG_3757.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\prive-steak-gallery.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\Qəssab köfdə - min 100 gr (7azn).JPG
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\sing.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\sing2.jpeg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\table.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\UQ4B7014.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\UQ4B7020.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\UQ4B7024.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\_0010021.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\_54A5218.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\_54A5232.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\_54A5295.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\interier\_MRN1178.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\logo\prive logo white.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\logo\prive logo.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\logo\prive.jpeg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\1. adana_table_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\10. ciger cop sis_table_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\2.beyti sarma_.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\3.dana bonfile_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\4.Alinazik quzu cop sis.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\5.yogurtlu adana.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\6. urfa kebap_table_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\7.kuzu sis_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\8.Quzu qabırğa_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\9.tavuk sis_table_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Acılı əzmə_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Asado low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Atom_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Badımcan əzmə_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Basdırmalı humus_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\c49f0881-ec61-4dbb-b141-f0a885f449df_202302251930005482_1. adana_table_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Cacık_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Cheddar burger_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Cheddar soslu dana lokum_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Club steak_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Dallas steak_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\dana bonfile_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Dana Carpaccio_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\dana lokum_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Dana spagetti_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\dana şaşlık (2)_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\fistiqli dolama wolt low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\fistiqli dorkunc paxlava low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Fındık lahmacun_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Fıstıqlı humus_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Galeri meze_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Gavurdağ salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\havuc dilim low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\haydari_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\humus_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Izqarada tərəvəz_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\içli köftə_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\kartof fri_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Kaşar pendirli kartof suflesi_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Kaşarlı köftə_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Kaşarlı pendirli göbələk_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Kaşık salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Keçi pendirli Akdeniz salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Kremalı ıspanaqlı göbələk_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Lokum burger_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Mangalda ananas_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Mangalda asparaqus_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\mevsim salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Mini trio burger_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Narlı roka salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\New york steak_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\ozel durum low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Pembe sultan_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Prive double burger (2)_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Prive kasap köfte_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Prive sosis_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Prive steak salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\qarışıq pendir tabağı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\qatıqlı ispanaq_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Qatıqlı pərğətöyün_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\qozlu dorkunc paxlava _low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\qozlu kadayif_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Quzu bel_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\quzu kuşləmə_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Quzu qabırğa_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Rib eye steak_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Satobrian low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Sezar Salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Sobada mini kartof_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\sobiyet_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Steyk tartar_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\T-bone steak_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Tomahawk steak)low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Toyuq burger (2)_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-82 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-83 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-85 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-86 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-87 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-88 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-89 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-90 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-93 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-95 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-96 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-98 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\untitled-99 low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\yasil yapraq sobiyet_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Zeytunyağlı yaprak sarma_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Çiy köfte_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\Çoban salatı_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\meals\şakşuka_low.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\img\paypal-card.jpg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\active.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\cart.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\customs.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\CustomSlider.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\JavaScript.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\main.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\modernizr-2.8.3.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\plugin.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\search.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\assets\js\side-bar.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\animate.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\app-style.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\bootstrap.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\bootstrap.min.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\icons.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\pace.min.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\sidebar-menu.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\css\sweetalert2.min.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ad.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ae.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\af.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ag.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ai.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\al.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\am.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ao.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\aq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ar.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\as.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\at.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\au.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\aw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ax.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\az.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ba.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\be.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\br.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bs.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\by.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\bz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ca.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ch.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ci.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ck.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\co.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cx.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\cz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\de.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\dj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\dk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\dm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\do.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\dz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ec.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ee.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\eg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\eh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\er.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\es-ct.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\es.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\et.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\eu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\fi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\fj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\fk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\fm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\fo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\fr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ga.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gb-eng.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gb-nir.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gb-sct.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gb-wls.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ge.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gs.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\gy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\hk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\hm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\hn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\hr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ht.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\hu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\id.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ie.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\il.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\im.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\in.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\io.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\iq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ir.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\is.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\it.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\je.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\jm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\jo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\jp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ke.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\kg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\kh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ki.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\km.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\kn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\kp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\kr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\kw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ky.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\kz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\la.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\lb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\lc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\li.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\lk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\lr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ls.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\lt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\lu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\lv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ly.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ma.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\md.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\me.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ml.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ms.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mx.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\my.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\mz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\na.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\nc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ne.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\nf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ng.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ni.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\nl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\no.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\np.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\nr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\nu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\nz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\om.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pa.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pe.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ph.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ps.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\pw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\py.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\qa.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\re.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ro.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\rs.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ru.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\rw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sa.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\se.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\si.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\so.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ss.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\st.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sx.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\sz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\td.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\th.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\to.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\tz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ua.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ug.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\um.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\un.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\us.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\uy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\uz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\va.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\vc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ve.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\vg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\vi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\vn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\vu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\wf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ws.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\ye.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\yt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\za.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\zm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\1x1\zw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ad.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ae.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\af.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ag.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ai.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\al.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\am.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ao.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\aq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ar.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\as.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\at.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\au.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\aw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ax.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\az.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ba.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\be.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\br.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bs.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\by.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\bz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ca.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ch.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ci.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ck.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\co.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cx.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\cz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\de.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\dj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\dk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\dm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\do.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\dz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ec.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ee.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\eg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\eh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\er.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\es-ct.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\es.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\et.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\eu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\fi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\fj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\fk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\fm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\fo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\fr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ga.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gb-eng.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gb-nir.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gb-sct.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gb-wls.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ge.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gs.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\gy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\hk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\hm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\hn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\hr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ht.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\hu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\id.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ie.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\il.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\im.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\in.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\io.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\iq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ir.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\is.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\it.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\je.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\jm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\jo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\jp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ke.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\kg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\kh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ki.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\km.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\kn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\kp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\kr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\kw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ky.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\kz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\la.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\lb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\lc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\li.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\lk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\lr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ls.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\lt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\lu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\lv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ly.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ma.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\md.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\me.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ml.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mo.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mp.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mq.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ms.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mx.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\my.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\mz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\na.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\nc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ne.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\nf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ng.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ni.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\nl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\no.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\np.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\nr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\nu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\nz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\om.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pa.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pe.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ph.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ps.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\pw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\py.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\qa.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\re.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ro.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\rs.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ru.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\rw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sa.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sb.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sd.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\se.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sh.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\si.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\so.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ss.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\st.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sx.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\sz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\td.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\th.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tj.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tk.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tl.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\to.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tr.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tv.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\tz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ua.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ug.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\um.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\un.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\us.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\uy.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\uz.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\va.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\vc.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ve.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\vg.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\vi.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\vn.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\vu.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\wf.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ws.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\ye.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\yt.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\za.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\zm.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\flags\4x3\zw.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\fontawesome-webfont.eot
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\fontawesome-webfont.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\fontawesome-webfont.ttf
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\fontawesome-webfont.woff
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\fontawesome-webfont.woff2
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\FontAwesome.otf
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\line-awesome.eot
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\line-awesome.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\line-awesome.ttf
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\line-awesome.woff
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\line-awesome.woff2
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Material-Design-Iconic-Font.eot
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Material-Design-Iconic-Font.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Material-Design-Iconic-Font.ttf
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Material-Design-Iconic-Font.woff
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Material-Design-Iconic-Font.woff2
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Simple-Line-Icons.eot
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Simple-Line-Icons.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Simple-Line-Icons.ttf
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Simple-Line-Icons.woff
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\Simple-Line-Icons.woff2
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\themify.eot
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\themify.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\themify.ttf
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\themify.woff
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\weathericons-regular-webfont.eot
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\weathericons-regular-webfont.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\weathericons-regular-webfont.ttf
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\weathericons-regular-webfont.woff
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\fonts\weathericons-regular-webfont.woff2
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\bg-themes\1.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\bg-themes\2.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\bg-themes\3.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\bg-themes\4.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\bg-themes\5.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\bg-themes\6.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\favicon.ico
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\gallery\cd-icon-navigation.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\logo-icon.png
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\angular-icon.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\bootstrap-4.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\cd-arrow.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\cd-icon-location.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\cd-icon-movie.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\cd-icon-picture.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\css-3.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\html5.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\images\timeline\react.svg
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\app-script.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\bootstrap.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\bootstrap.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\Custom.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\index.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\jquery.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\pace.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\popper.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\sidebar-menu.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\js\sweetalert2.all.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\Chart.js\Chart.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\Chart.js\chartjs-script.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\css\fullcalendar.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\css\fullcalendar.min.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\css\fullcalendar.print.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\css\fullcalendar.print.min.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\js\fullcalendar-custom-script.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\js\fullcalendar.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\js\fullcalendar.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\js\jquery-ui.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\fullcalendar\js\moment.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\jquery.easy-pie-chart\easy-pie-chart.init.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\jquery.easy-pie-chart\easypiechart.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\jquery.easy-pie-chart\jquery.easypiechart.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\simplebar\css\simplebar.css
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\simplebar\js\simplebar.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\sparkline-charts\jquery.sparkline.min.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\wwwroot\manage\plugins\sparkline-charts\sparkline-chart-script.js
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Final.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Final.runtimeconfig.json
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Final.pdb
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\az-Latn-AZ\Final.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\en-GB\Final.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ru-RU\Final.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Bcl.HashCode.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Logging.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Options.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Extensions.Primitives.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.Identity.Client.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Protocols.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\dotnet-aspnet-codegenerator-design.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Newtonsoft.Json.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\NuGet.Frameworks.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Collections.Immutable.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.AttributedModel.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Convention.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Hosting.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.Runtime.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Composition.TypedParts.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Configuration.ConfigurationManager.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Diagnostics.DiagnosticSource.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Runtime.Caching.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x64\native\sni.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win-x86\native\sni.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Final.Views.dll
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Final.Views.pdb
+C:\Users\User\Desktop\FinalCopy-main\Final\obj\Release\netcoreapp3.1\PubTmp\Out\Final.deps.json

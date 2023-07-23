@@ -1,0 +1,155 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@using Microsoft.AspNetCore.Builder
+@using Microsoft.AspNetCore.Identity;
+@using Microsoft.AspNetCore.Localization
+@using Microsoft.Extensions.Options
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+
+@inject IStringLocalizer<HomeController> Localizer
+@inject IHtmlLocalizer<HomeController> HtmlLocalizer
+@inject IOptions<RequestLocalizationOptions> LocOptions
+@inject IOptions<RequestLocalizationOptions> LocOptions
+
+@model HomeVM
+@{ ViewData["Title"] = "Index";
+    List<BasketVM> basketVMs = await layoutService.GetBasket();
+    string returnUrl = ViewContext.HttpContext.Request.Path;
+    string currentCulture = ViewContext.HttpContext.Features.Get<IRequestCultureFeature>().RequestCulture.Culture.ToString();
+    int count = basketVMs.Count;
+    ViewBag.Hometitle = Localizer["hometitle"];
+    ViewBag.AboutTitle = Localizer["abouttitle"];
+    ViewBag.ContactTitle = Localizer["contacttitle"];
+    ViewBag.MenuTitle = Localizer["menutitle"];
+    ViewBag.ReserveTitle = Localizer["reservetitle"];
+    var requestCulture = Context.Features.Get<IRequestCultureFeature>();
+    var cultureItems = LocOptions.Value.SupportedUICultures
+        .Select(c => new SelectListItem { Value = c.Name, Text = c.DisplayName })
+        .ToList();
+}
+
+<header class="header">
+    <div class="all" style="align-items:center;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-5">
+                    <div class="header-text">
+                        <ul>
+                            <a asp-controller="home" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Hometitle)</li></a>
+                            <a asp-controller="about" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Abouttitle)</li></a>
+                            <a asp-controller="shop" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Menutitle)</li></a>
+                            <a asp-controller="contact" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Contacttitle)</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-3">
+                    <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@Model.Setting.Logo" alt="" style="height: 80px; width: 38%;"></a>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="alltablecontent" style="display:flex;">
+                        <div class="main-header">
+                            <div class="switch">
+                                <div class="current">
+                                    <span>az</span>
+                                    <em class="arrow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                            <title>ic_arrow_drop_down_18px</title>
+                                            <g fill="#FFFFFF">
+                                                <path d="M5 8l4 4 4-4z"></path>
+                                            </g>
+                                        </svg>
+                                    </em>
+                                </div>
+                                <div class="options">
+                                    <ul class="options-list">
+                                        <li data-lang="en"><a a asp-controller="Home" asp-action="Language" asp-route-culture="en-GB" asp-route-returnUrl="@returnUrl"><span style="color:#cfa86e; margin-right:3px; font-size:13px;">EN</span><img style="width:20px;" src="~/assets/img/flags/enflag.png" /></a></li>
+                                        <li data-lang="az"><a asp-controller="Home" asp-action="Language" asp-route-culture="az-Latn-AZ" asp-route-returnUrl="@returnUrl"><span style="color: #cfa86e; margin-right: 3px; font-size: 13px;">AZ</span><img style="width:20px;" src="~/assets/img/flags/azflag.png" /></a></li>
+                                        <li data-lang="ru"><a asp-controller="Home" asp-action="Language" asp-route-culture="ru-RU" asp-route-returnUrl="@returnUrl"><span style="color: #cfa86e; margin-right: 3px; font-size: 13px;">RU</span><img style="width:20px;" src="~/assets/img/flags/ruflag.png" /></a></li>
+
+                                    </ul>
+                                    <div id="trans-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"> <g id="circle" fill="none" fill-rule="evenodd"> <circle id="bg" cx="60" cy="60" r="60" fill="#FFFFFF" /> </g> </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @if (Model.Setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@Model.Setting.Facebook"><i class="fa-brands fa-facebook"></i></a>}
+                        @if (Model.Setting.Facebook != null)
+                        {
+                            <a target="_blank" href="@Model.Setting.Instagram"><i class="fa-brands fa-instagram"></i></a>}
+                        @if (Model.Setting.Youtube != null)
+                        {
+                            <a target="_blank" href="@Model.Setting.Youtube"><i class="fa-brands fa-youtube"></i></a>}
+                        <div class="booktable">
+                            <a asp-controller="table" asp-action="index" class="booktable-btn">@Html.Raw(ViewBag.Reservetitle)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="headerslide">
+    <div class="forslide">
+        <ul class="slider-main">
+            <li class="slider-item" data-num="1">
+                <div class="slider-main_img"></div>
+            </li>
+            <li class="slider-item" data-num="2">
+                <div class="slider-main_img"></div>
+            </li>
+            <li class="slider-item" data-num="3">
+                <div class="slider-main_img"></div>
+            </li>
+            <li class="slider-item" data-num="4">
+                <div class="slider-main_img"></div>
+            </li>
+            <li class="slider-item" data-num="5">
+                <div class="slider-main_img"></div>
+            </li>
+        </ul>
+        <div class="header_container container">
+            <ul class="slider_line_container">
+            </ul>
+            <div class="header_title">
+                @foreach (HomeIntro home in Model.HomeIntros)
+                {
+                    @if (currentCulture == "en-GB")
+                    {
+                        <div class="general_title">
+                            <h6 class="desc1" style="font-style:italic;">@home.Intro</h6>
+                            @*<h1 class="desc2">@Html.Raw(home.Title)</h1>*@
+                            <h5 class="desc" style="color: #fefefe;">@Html.Raw(home.DescriptionEN)</h5>
+                        </div>}
+                    @if (currentCulture == "az-Latn-AZ")
+                    {
+                        <div class="general_title">
+                            <h6 class="desc1" style="font-style:italic;">@home.IntroAZ</h6>
+                            @*<h1 class="desc2" style="color: #fff;">@Html.Raw(home.TitleAZ)</h1>*@
+                            <h5 class="desc" style="color: #cbcccb;">@Html.Raw(home.DescriptionAZ)</h5>
+                        </div>}
+                    @if (currentCulture == "ru-RU")
+                    {
+                        <div class="general_title">
+                            <h6 class="desc1" style="font-style:italic;">@home.IntroRU</h6>
+                            @*<h1 class="desc2" style="color: #fff;">@Html.Raw(home.TitleRU)</h1>*@
+                            <h5 class="desc" style="color: #fefefe;">@Html.Raw(home.DescriptionRU)</h5>
+                        </div>}}
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+
+

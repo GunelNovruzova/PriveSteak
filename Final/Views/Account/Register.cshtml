@@ -1,0 +1,102 @@
+﻿@using Microsoft.AspNetCore.Identity;
+@inject UserManager<AppUser> userManager;
+@inject LayoutService layoutService
+@inject IStringLocalizer<AccountController> Localizer
+@inject IHtmlLocalizer<AccountController> HtmlLocalizer
+@model RegisterVM
+@{ ViewData["Title"] = "Index";
+    Setting setting = await layoutService.GetSetting();
+    AppUser appUser = null;
+    if (User.Identity.IsAuthenticated)
+    {
+        appUser = userManager.Users.FirstOrDefault(u => u.UserName == User.Identity.Name && !u.IsAdmin);
+    }
+    List<BasketVM> basketVMs = await layoutService.GetBasket();
+    int count = basketVMs.Count;
+    ViewBag.Hometitle = Localizer["hometitle"];
+    ViewBag.AboutTitle = Localizer["abouttitle"];
+    ViewBag.ContactTitle = Localizer["contacttitle"];
+    ViewBag.MenuTitle = Localizer["menutitle"];
+    ViewBag.ReserveTitle = Localizer["reservetitle"];
+    }
+
+<header class="header">
+    <div class="all" style="align-items:center;">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-md-2 col-sm-8">
+                    <div class="header-text">
+                        <ul>
+                            <a asp-controller="home" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Hometitle)</li></a>
+                            <a asp-controller="about" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Abouttitle)</li></a>
+                            <a asp-controller="shop" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Menutitle)</li></a>
+                            <a asp-controller="contact" asp-action="index">
+                            <li>@Html.Raw(ViewBag.Contacttitle)</li></a>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 col-sm-2">
+                    <a asp-controller="Home" asp-action="Index"><img src="~/assets/img/logo/@setting.Logo" alt="" style="height:91px; width:42%;"></a>
+                </div>
+
+                <div class="col-lg-4 col-md-2 col-sm-2">
+                    <div class="alltablecontent" style="display:flex; align-items:center;">
+
+                        @if (setting.Facebook != null)
+                        {
+            <a target="_blank" href="@setting.Facebook"><i class="fa-brands fa-facebook"></i></a>}
+                        @if (setting.Facebook != null)
+                        {
+            <a target="_blank" href="@setting.Instagram"><i class="fa-brands fa-instagram"></i></a>}
+                        @if (setting.Youtube != null)
+                        {
+            <a target="_blank" href="@setting.Youtube"><i class="fa-brands fa-youtube"></i></a>} @*<a href="" class="searchglass"> <i class="fa-solid fa-magnifying-glass"></i></a>*@
+                        <div class="account" style="color:#fff;">
+                            <i class="fa-solid fa-user-gear"></i>
+                            <ul class="sub-menu">
+                                @if (User.Identity.IsAuthenticated)
+                                {
+                    <li><a asp-controller="Account" asp-action="Profile">@User.Identity.Name</a></li>
+                                    <li><a asp-action="Logout" asp-controller="Account">Sign Out</a></li>
+ }
+                                else
+                                {
+                    <li><a asp-action="Login" asp-controller="Account">Login</a></li>
+                                    <li><a asp-action="Register" asp-controller="Account">Register</a></li>
+}
+                            </ul>
+                        </div>
+                        <ul style="padding:0;">
+                            <li style="position:relative; margin-right:20px; margin-top:16px;">
+                                <a href="" class="basket"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <div class="notification" style="position: absolute; top: -13px; right: -22px; background-color: #CFA86E; color: white; font-weight: 700; padding: 0 9px; border-radius: 50%;">@basketVMs.Count()</div>
+                            </li>
+                        </ul>
+
+                        <div class="booktable">
+                            <a asp-controller="table" asp-action="index" class="booktable-btn">@Html.Raw(ViewBag.Reservetitle)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<section class="about">
+   
+</section>
+<section class="register">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12" style="display:flex;justify-content:center;align-items:center;">
+
+                @await Html.PartialAsync("_RegisterFormPartial", Model)
+            </div>
+        </div>
+    </div>
+</section>
+

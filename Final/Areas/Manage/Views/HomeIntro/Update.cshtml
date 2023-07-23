@@ -1,0 +1,79 @@
+﻿
+@model HomeIntro
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1>Update Setting</h1>
+            </div>
+        </div>
+        <div class="row justify-content-lg-center">
+            <div class="col-lg-8">
+                <form method="post" enctype="multipart/form-data">
+
+                    <div class="form-group">
+                        <label asp-for="Intro"></label>
+                        <input class="form-control" asp-for="Intro" placeholder="E">
+                        <span class="text-danger" asp-validation-for="Intro"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="IntroAZ"></label>
+                        <input class="form-control" asp-for="IntroAZ" placeholder="Enter Intro">
+                        <span class="text-danger" asp-validation-for="IntroAZ"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="IntroRU"></label>
+                        <input class="form-control" asp-for="IntroRU" placeholder="Enter Intro">
+                        <span class="text-danger" asp-validation-for="IntroRU"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Title"></label>
+                        <input class="form-control" asp-for="Title" placeholder="E">
+                        <span class="text-danger" asp-validation-for="Title"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TitleAZ"></label>
+                        <input class="form-control" asp-for="TitleAZ" placeholder="Enter Title">
+                        <span class="text-danger" asp-validation-for="TitleAZ"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TitleRU"></label>
+                        <input class="form-control" asp-for="TitleRU" placeholder="Enter Title">
+                        <span class="text-danger" asp-validation-for="TitleRU"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DescriptionEN"></label>
+                        <input class="form-control" asp-for="DescriptionEN" placeholder="Enter Description">
+                        <span class="text-danger" asp-validation-for="DescriptionEN"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DescriptionAZ"></label>
+                        <input class="form-control" asp-for="DescriptionAZ" placeholder="Enter Description">
+                        <span class="text-danger" asp-validation-for="DescriptionAZ"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DescriptionRU"></label>
+                        <input class="form-control" asp-for="DescriptionRU" placeholder="Enter Description">
+                        <span class="text-danger" asp-validation-for="DescriptionRU"></span>
+                    </div>
+
+
+                    <a asp-action="Update" asp-controller="HomeIntro" class="btn btn-primary">Update</a>
+
+                </form>
+            </div>
+        </div>
+        <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+        <div class="row">
+            <div class="col">
+                <a class="btn btn-primary" asp-action="Index">Go To List</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Script{
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+}
+
